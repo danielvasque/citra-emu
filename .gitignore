@@ -1,43 +1,26 @@
-# Windows image file caches
-Thumbs.db
-ehthumbs.db
+# Build directory
+[Bb]uild/
+doc-build/
 
-# Folder config file
-Desktop.ini
+# Generated source files
+src/common/scm_rev.cpp
 
-# Recycle Bin used on file shares
-$RECYCLE.BIN/
+# Project/editor files
+*.swp
+.idea/
 
-# Windows Installer files
-*.cab
-*.msi
-*.msm
-*.msp
+# *nix related
+# Common convention for backup or temporary files
+*~
 
-# Windows shortcuts
-*.lnk
-
-# =========================
-# Operating System Files
-# =========================
-
-# OSX
-# =========================
-
+# OSX global filetypes
+# Created by Finder or Spotlight in directories for various OS functionality (indexing, etc)
 .DS_Store
 .AppleDouble
 .LSOverride
-
-# Thumbnails
-._*
-
-# Files that might appear on external disk
 .Spotlight-V100
 .Trashes
 
-# Directories potentially created on remote AFP share
-.AppleDB
-.AppleDesktop
-Network Trash Folder
-Temporary Items
-.apdisk
+# Windows global filetypes
+Thumbs.db
+
